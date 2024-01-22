@@ -247,7 +247,7 @@ class App:
             obj.draw()
 
     def draw_title_screen(self):
-        pyxel.text(35, 66, "KAMO-NEGI_GAME", self.txtcolors[pyxel.frame_count % 3])
+        pyxel.text(34, 66, "KAMO-NEGI_GAME", self.txtcolors[pyxel.frame_count % 3])
         pyxel.text(31, 126, "- PRESS ENTER -", 13)
         self.draw_obj(Kamo_list)
         self.draw_obj(Negi_list)
